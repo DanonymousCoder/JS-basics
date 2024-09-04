@@ -1,3 +1,9 @@
+// Data types
+let text = 'Ridwanullah'; // string
+let num = 00; // number
+let isTrue = true; // boolean
+let nothing = undefined; // undefined
+
 // variables
 let name = 'Coder';
 name = 'DanonymousCoder'; // will change
