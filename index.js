@@ -12,6 +12,7 @@ let text = 'Ridwanullah'; // string
 let num = 00; // number
 let isTrue = true; // boolean
 let nothing = undefined; // undefined
+let a // null
 
 // variables
 let name = 'Coder';
