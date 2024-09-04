@@ -11,4 +11,10 @@ let fruits = ['apple', 'mango', 'pear'];
 // bracket notation
 fruits[0]; // apple
 
-// ob
+// objects 
+let person = {
+  name : 'Coder',
+  age : 00
+}
+
+// Dot notation
