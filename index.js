@@ -1,3 +1,12 @@
+// inline comments
+
+/*
+  multi-line comment
+  test
+  test
+
+  test
+*/
 // Data types
 let text = 'Ridwanullah'; // string
 let num = 00; // number
