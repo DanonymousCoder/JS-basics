@@ -21,6 +21,31 @@ name = 'DanonymousCoder'; // will change
 const nAme = 'Code';
 nAme = 'Coder'; // Will not change
 
+// Declaration
+let me;
+
+// assignment 
+me = 'Coder';
+
+// addition
+let sum = 10 + 10;
+
+// subtraction
+let difference = 20 - 10;
+
+// multiplication
+let product = 2 * 2;
+
+// division
+let quotient = 2 * 2;
+
+// increment a number
+let increasOne = 10;
+let increasTwo = 10;
+
+increasOne = increasOne + 1;
+increasTwo = increasTwo + 1;
+
 // Array
 let fruits = ['apple', 'mango', 'pear'];
 
