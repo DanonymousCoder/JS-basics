@@ -5,4 +5,10 @@ name = 'DanonymousCoder'; // will change
 const nAme = 'Code';
 nAme = 'Coder'; // Will not change
 
-let fruits = ['apple', 'mango', 'pear']
+// Array
+let fruits = ['apple', 'mango', 'pear'];
+
+// bracket notation
+fruits[0]; // apple
+
+// ob
