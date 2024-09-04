@@ -43,8 +43,17 @@ let quotient = 2 * 2;
 let increasOne = 10;
 let increasTwo = 10;
 
-increasOne = increasOne + 1;
-increasTwo = increasTwo + 1;
+increasOne = increasOne + 1; // 11
+// alternatively
+increasTwo++; // 11
+
+// decrement a number
+let decreasOne = 10;
+let decreasTwo = 10;
+
+decreasOne = decreasOne - 1; // 9
+// alternatively
+decreasTwo--; // 9
 
 // Array
 let fruits = ['apple', 'mango', 'pear'];
