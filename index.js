@@ -27,11 +27,19 @@ let person = {
 person.name; // Coder
 
 // Bracket notation
-person[name];
+person[name]; // Coder
 
 // function
 function greet() {
   console.log('Hello world!');
 }
 
-greet();
+greet(); // Hello world!
+
+// function with parameter
+
+function square(number) {
+  return number * number;
+}
+
+square(2); // 4
