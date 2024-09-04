@@ -18,3 +18,6 @@ let person = {
 }
 
 // Dot notation
+person.name; // Coder
+
+// Bracket n
