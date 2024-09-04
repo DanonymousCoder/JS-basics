@@ -28,3 +28,10 @@ person.name; // Coder
 
 // Bracket notation
 person[name];
+
+// function
+function greet() {
+  console.log('Hello world!');
+}
+
+greet();
