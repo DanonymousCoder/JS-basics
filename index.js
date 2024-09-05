@@ -127,3 +127,14 @@ function strictEqual(val) {
 }
 
 console.log(strictEqual('3'));
+
+// Logical AND operator
+
+function testNum(val) {
+
+  if (val <= 50 && val >= 25) {
+    return "Good";
+  } 
+
+  return "Bad"
+}
