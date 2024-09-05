@@ -138,3 +138,14 @@ function testNum(val) {
 
   return "Bad"
 }
+
+// Logical OR operator
+
+function testNumb(val) {
+
+  if (val >= 50 || val <= 25) {
+    return "Outside!";
+  } 
+
+  return "Inside!"
+}
