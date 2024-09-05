@@ -149,3 +149,25 @@ function testNumb(val) {
 
   return "Inside!"
 }
+
+// Else statement
+
+function testElse(val) {
+  if (val > 10) {
+    return "Big";
+  } else {
+    return "Small";
+  }
+}
+
+// Elseif statement
+
+function testElseIf(val) {
+  if (val > 100) {
+    return "Big"
+  } elseif (val < 50) {
+    return "Small"
+  } else {
+    return "Middle"
+  }
+}  
