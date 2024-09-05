@@ -103,3 +103,15 @@ let testArr = [1,2,3,4,5];
 console.log(`Before: ${JSON.stringify(testArr)}`);
 console.log(JSON.stringify(nextInLine(testArr, 6)));
 console.log(`After: ${JSON.stringify(testArr)}`);
+
+// comparison with double equality sign
+
+function isEqual(val) {
+    if (val == 3) {
+        return "Equal";
+    }
+
+    return "Not Equal";
+}
+
+console.log(isEqual(3));
