@@ -115,3 +115,15 @@ function isEqual(val) {
 }
 
 console.log(isEqual(3));
+
+// comparison with triple equality sign
+
+function strictEqual(val) {
+    if (val === 3) {
+        return "Equal";
+    }
+
+    return "Not Equal";
+}
+
+console.log(strictEqual('3'));
