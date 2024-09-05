@@ -89,3 +89,17 @@ function square(number) {
 }
 
 square(2); // 4
+
+// nextInLine function
+
+function nextInLine(arr, item) {
+    arr.push(item);
+
+    return arr.shift();
+}
+
+let testArr = [1,2,3,4,5];
+
+console.log(`Before: ${JSON.stringify(testArr)}`);
+console.log(JSON.stringify(nextInLine(testArr, 6)));
+console.log(`After: ${JSON.stringify(testArr)}`);
