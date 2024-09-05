@@ -21,6 +21,8 @@ name = 'DanonymousCoder'; // will change
 const nAme = 'Code';
 nAme = 'Coder'; // Will not change
 
+const = "This is a \"double quoted\" a \"double quote\" quote";
+
 // Declaration
 let me;
 
