@@ -335,3 +335,19 @@ function cc(card) {
 cc(2); cc('K'); cc(10); cc('K'); cc('A');
 // console.log(cc(4)); // -2 DON'T EVEN DARE!
 
+
+// Objects
+
+let ourCat = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+let myCat = {
+  "name": "Cupcake",
+  "legs": 6,
+  "tails": 1.5,
+  "friends": []
+}
