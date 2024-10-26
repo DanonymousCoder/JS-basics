@@ -246,7 +246,7 @@ function sequential(val) {
   return ans
 }
 
-console.log(sequential(6));
+// console.log(sequential(6)); // high
 
 // Task
 
@@ -276,7 +276,7 @@ function chainToSwitch(val)  {
   return ans;
 }
 
-console.log(chainToSwitch(1));
+// console.log(chainToSwitch(1)); // There is no #1
 
 // return boolean
 
@@ -286,4 +286,52 @@ function returnBoolean(a, b) {
 
 }
 
-console.log(returnBoolean(10, 20))
+// console.log(returnBoolean(10, 20)); // false
+
+function testAB(a, b) {
+
+  if (a < 0 || b < 0) {
+    return undefined;
+  }
+
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+
+}
+
+// console.log(testAB(2, -2)); // undefined
+
+let count = 0;
+
+function cc(card) {
+
+  switch(card) {
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count++;
+      break;
+    case 10:
+    case "J":
+    case "Q":
+    case "K":
+    case "A":
+      count --;
+      break;
+  }
+
+  let holdchoice = 'Hold';
+
+  if (count > 0) {
+    holdchoice = "Make a choice";
+  } else {
+    holdchoice = "DON'T EVEN DARE!"
+  }
+
+  return count + " " + holdchoice;
+}
+
+cc(2); cc('K'); cc(10); cc('K'); cc('A');
+// console.log(cc(4)); // -2 DON'T EVEN DARE!
+
