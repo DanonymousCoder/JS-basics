@@ -9,19 +9,19 @@
 */
 // Data types
 let text = 'Ridwanullah'; // string
-let num = 00; // number
+let num = 0; // number
 let isTrue = true; // boolean
 let nothing = undefined; // undefined
 let a // null
 
 // variables
-let name = 'Coder';
-name = 'DanonymousCoder'; // will change
+let names = 'Coder';
+names = 'DanonymousCoder'; // will change
 
 const nAme = 'Code';
 nAme = 'Coder'; // Will not change
 
-const = "This is a \"double quoted\" a \"double quote\" quote";
+const slas= "This is a \"double quoted\" a \"double quote\" quote";
 
 // Declaration
 let me;
@@ -66,7 +66,7 @@ fruits[0]; // apple
 // objects 
 let person = {
   name : 'Coder',
-  age : 00
+  age : 0
 }
 
 // Dot notation
@@ -165,7 +165,7 @@ function testElse(val) {
 function testElseIf(val) {
   if (val > 100) {
     return "Big"
-  } elseif (val < 50) {
+  } else  if (val < 50) {
     return "Small"
   } else {
     return "Middle"
@@ -188,4 +188,27 @@ function taskOne(val) {
      }
 } 
 
-console.log(taskOne(7));
+// console.log(taskOne(7));
+
+function switchOne(val) {
+  let ans = "";
+
+  switch(val) {
+    case 1:
+      ans = "Alpha";
+      break;
+    case 2:
+      ans = "Beta";
+      break;
+    case 3:
+      ans = "Gamma";
+      break;
+    case 4:
+      ans = "Delta";
+      break;
+  }
+
+  return ans;
+}
+
+console.log(switchOne(2));
