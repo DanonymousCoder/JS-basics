@@ -247,3 +247,43 @@ function sequential(val) {
 }
 
 console.log(sequential(6));
+
+// Task
+
+function chainToSwitch(val)  {
+  let ans  = "";
+
+  switch(val) {
+    case "bob":
+      ans = "Marley";
+      break;
+    case 42:
+      ans = "The Answer";
+      break;
+    case 1:
+      ans = "There is no #1";
+      break;
+    case 99:
+      ans = "Missed me by this much";
+      break;
+    case 7:
+      ans = "Ate Nine";
+      break;
+    default:
+      ans = "Try Again"
+  }
+
+  return ans;
+}
+
+console.log(chainToSwitch(1));
+
+// return boolean
+
+function returnBoolean(a, b) {
+
+  return a > b;
+
+}
+
+console.log(returnBoolean(10, 20))
