@@ -19,7 +19,7 @@ let names = 'Coder';
 names = 'DanonymousCoder'; // will change
 
 const nAme = 'Code';
-nAme = 'Coder'; // Will not change
+// nAme = 'Coder'; // Will not change
 
 const slas= "This is a \"double quoted\" a \"double quote\" quote";
 
@@ -65,15 +65,15 @@ fruits[0]; // apple
 
 // objects 
 let person = {
-  name : 'Coder',
+  names : 'Coder',
   age : 0
 }
 
 // Dot notation
-person.name; // Coder
+person.names; // Coder
 
 // Bracket notation
-person[name]; // Coder
+person[names]; // Coder
 
 // function
 function greet() {
@@ -190,8 +190,11 @@ function taskOne(val) {
 
 // console.log(taskOne(7));
 
+
 function switchOne(val) {
   let ans = "";
+
+  // Switch statement
 
   switch(val) {
     case 1:
@@ -206,9 +209,41 @@ function switchOne(val) {
     case 4:
       ans = "Delta";
       break;
+    default:
+      ans = "Try again";
+      break;
   }
 
   return ans;
 }
 
 console.log(switchOne(2));
+
+function sequential(val) {
+  let ans = "";
+
+  switch(val) {
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+      ans ="low";
+      break;
+    case 5:
+      ans = "middle";
+      break;
+    case 6:
+    case 7:
+    case 8:
+    case 9:
+      ans ="high";
+      break;
+    default:
+      ans = "Try Again";
+      break;
+  }
+
+  return ans
+}
+
+console.log(sequential(6));
