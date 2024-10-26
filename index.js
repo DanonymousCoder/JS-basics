@@ -351,3 +351,35 @@ let myCat = {
   "tails": 1.5,
   "friends": []
 }
+
+let testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+let hatValue = testObj.hat; // dot notation
+let shirtValue = testObj["shirt"]; // Bracket notation
+
+console.log(hatValue +" " + shirtValue);
+
+
+// look up an object
+
+let item = "shoes";
+let shoesValue = testObj[item];
+console.log(shoesValue);
+
+// update an object
+
+let ourSap = {
+  "name" : "Coder",
+  "legs": 4,
+  "tails": 2,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+let update = "D'anonymousCoder";
+ourSap.name = update;
+
+console.log(ourSap.name)
