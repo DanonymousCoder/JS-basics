@@ -368,7 +368,7 @@ console.log(hatValue +" " + shirtValue);
 
 let item = "shoes";
 let shoesValue = testObj[item];
-console.log(shoesValue);
+// console.log(shoesValue); // cleats
 
 // update an object
 
@@ -380,6 +380,66 @@ let ourSap = {
 };
 
 let update = "D'anonymousCoder";
-ourSap.name = update;
+// ourSap.name = update; // D'anonymousCoder
 
-console.log(ourSap.name)
+console.log(ourSap.name);
+
+// Add a new property
+
+ourSap.skill = "running";
+
+// console.log(ourSap.skill); running
+
+// Delete a property
+delete ourSap.skill;
+// console.log(ourSap.skill); // undefined
+
+// Object for lookup
+
+function objLookUp(val) {
+  let lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "frank"
+  };
+
+  let result = lookup[val];
+
+  return result;
+}
+
+// console.log(objLookUp("foxtrot")); // frank
+
+let myObj = {
+  "gift": "pony",
+  "pet": "kitten",
+  "bed": "sleigh"
+};
+
+function checkObj(checkProp) {
+  if (myObj.hasOwnProperty(checkProp)) {
+    return myObj[checkProp];
+  } else {
+    return "Not found!"
+  }
+}
+
+// console.log(checkObj("hello")); // Not found!
+// console.log(checkObj("gift")); // pony
+
+let mySound = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release year": "1973",
+    "formats" : [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  }
+]
